@@ -1,0 +1,21 @@
+plant,light_category,recommended_hours,min_watt,max_watt,min_lux,max_lux,note
+pothos,low-medium,10,8,20,500,2000,Tolerates low light but grows faster in bright indirect light
+philodendron,medium,10,10,25,1000,3000,Prefers medium to bright indirect light
+zz plant,low,8,5,15,300,1500,Very tolerant of low light and drought
+snake plant,low-medium,8,5,18,500,2000,Survives low light but grows better with more light
+monstera,medium-bright,10,12,28,1500,4000,Needs bright indirect light for large leaves
+peace lily,medium,10,8,18,1000,2500,Tolerates medium light and prefers humidity
+maranta,medium,10,8,20,800,2500,Needs consistent medium light and humidity
+orchid,medium-bright,12,12,30,2000,5000,Needs bright filtered light to bloom
+english ivy,medium,10,8,18,1000,3000,Prefers cooler temperatures and airflow
+dracaena,low-medium,9,6,18,500,2000,Does well in moderate indoor light
+rubber plant,medium-bright,10,10,25,1500,4000,Needs brighter light for strong growth
+syngonium,medium,10,8,20,1000,3000,Adapts well to indoor medium light
+aloe vera,bright,12,15,35,3000,6000,Needs strong light and dry conditions
+calathea,medium,10,8,18,800,2000,Sensitive to light and prefers indirect conditions
+spider plant,medium,10,8,20,1000,3000,Easy plant that adapts to various conditions
+ferns,low-medium,9,6,18,500,2000,Prefer shaded and humid environments
+anthurium,medium-bright,11,12,28,1500,4000,Needs bright indirect light for flowers
+jade plant,bright,12,15,35,3000,6000,Requires strong light and dry soil
+ficus benjamina,medium-bright,10,12,28,1500,4000,Needs stable bright conditions
+begonia,medium,10,8,20,1000,2500,Prefers moderate light and humidity
