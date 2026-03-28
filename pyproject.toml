@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "plantgrowth"
+version = "0.2.0"
+description = "Plant Light Setup Analyzer"
+authors = [{name = "Noureen Alam Meem"}]
+dependencies = ["numpy", "matplotlib"]
