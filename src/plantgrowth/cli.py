@@ -12,6 +12,15 @@ def main():
     # plant-info
     info = sp.add_parser("plant-info")
     info.add_argument("name")  
+    
+
+    # check
+    check = sp.add_parser("check")
+    check.add_argument("--plant", required=True)
+    check.add_argument("--watt", type=float, required=True)
+    check.add_argument("--hours", type=float, required=True)
+    check.add_argument("--price", type=float, required=True)
+
     args = parser.parse_args()
 
     if args.cmd == "list-plants":
