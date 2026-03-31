@@ -11,8 +11,7 @@ def main():
 
     # plant-info
     info = sp.add_parser("plant-info")
-    info.add_argument("name")  # positional argument
-
+    info.add_argument("name")  
     args = parser.parse_args()
 
     if args.cmd == "list-plants":
@@ -20,8 +19,19 @@ def main():
             print("-", pl.name)
 
     elif args.cmd == "plant-info":
-        plant = get_plant(args.name)  # <-- use args.name
+        plant = get_plant(args.name)  
         if plant:
             display_plant_info(plant)
         else:
             print(f"❌ Plant '{args.name}' not found!")
+    
+    elif args.cmd == "check":
+        pl = get_plant(args.plant)
+        score, rating, msgs = evaluate(pl, args.watt, args.hours)
+        cost = yearly_cost(args.watt, args.hours, args.price)
+
+        print(f"Plant: {pl.name}")
+        print(f"Score: {score} | Rating: {rating}")
+        for m in msgs:
+            print("-", m)
+        print(f"Yearly cost: €{cost:.2f}")

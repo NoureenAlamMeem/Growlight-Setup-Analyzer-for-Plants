@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: plantgrowth
+Version: 0.2.0
+Summary: Plant Light Setup Analyzer
+Author: Noureen Alam Meem
+Requires-Dist: numpy
+Requires-Dist: matplotlib
