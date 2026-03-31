@@ -33,7 +33,7 @@ uv run -m plantgrowth list-plants
 
 **Output:**
 
-![List Plants](./assets/list-plants.png)
+![List Plants](./images/list-plants.png)
 
 ---
 
@@ -45,7 +45,7 @@ uv run -m plantgrowth plant-info pothos
 
 **Output:**
 
-![Plant Info](./assets/plant-info.png)
+![Plant Info](./images/plant-info.png)
 
 ---
 
@@ -57,7 +57,7 @@ uv run -m plantgrowth check --plant pothos --watt 15 --hours 12 --price 0.38
 
 **Output:**
 
-![Check Output](./assets/check.png)
+![Check Output](./images/check.png)
 
 ---
 
