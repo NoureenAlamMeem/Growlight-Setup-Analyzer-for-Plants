@@ -13,6 +13,7 @@ def main():
     info = sp.add_parser("plant-info")
     info.add_argument("name")  # positional argument
 
+    args = parser.parse_args()
 
     if args.cmd == "list-plants":
         for pl in load_plants():
