@@ -79,6 +79,7 @@ As someone who enjoys keeping indoor plants, I wanted a simple way to **understa
 
 ## 📌 Notes
 
+- If it doesn#t run, please create a virtual environment(uv venv) then install the packages
 - Lux is estimated from wattage (simplified model)  
 - Designed for learning and experimentation  
 
